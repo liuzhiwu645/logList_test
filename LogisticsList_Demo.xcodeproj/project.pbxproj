@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93B195491F5694AA00344024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B195481F5694AA00344024 /* main.m */; };
+		93B1954C1F5694AA00344024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B1954B1F5694AA00344024 /* AppDelegate.m */; };
+		93B195521F5694AA00344024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B195501F5694AA00344024 /* Main.storyboard */; };
+		93B195541F5694AA00344024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B195531F5694AA00344024 /* Assets.xcassets */; };
+		93B195571F5694AA00344024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B195551F5694AA00344024 /* LaunchScreen.storyboard */; };
+		93B195621F5694AB00344024 /* LogisticsList_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B195611F5694AB00344024 /* LogisticsList_DemoTests.m */; };
+		93B1956D1F5694AB00344024 /* LogisticsList_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B1956C1F5694AB00344024 /* LogisticsList_DemoUITests.m */; };
+		93B195811F56970F00344024 /* NSString+phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B195801F56970F00344024 /* NSString+phone.m */; };
+		93B195881F56984200344024 /* LzwLogisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B195871F56984200344024 /* LzwLogisticsViewController.m */; };
+		93B195911F56989C00344024 /* LzwLogisticsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B195901F56989C00344024 /* LzwLogisticsModel.m */; };
+		93B195941F569AD800344024 /* LzwLogisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B195931F569AD800344024 /* LzwLogisticsView.m */; };
+		93B195971F569CEF00344024 /* LzwTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B195961F569CEF00344024 /* LzwTableHeaderView.m */; };
+		93B1959A1F569ED100344024 /* hh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B195981F569ED100344024 /* hh.jpg */; };
+		93B1959D1F56A0E700344024 /* LzwLogCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B1959C1F56A0E700344024 /* LzwLogCustomTableViewCell.m */; };
+		93B195A01F56A22300344024 /* LzwCustomCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B1959F1F56A22300344024 /* LzwCustomCellContentView.m */; };
+		FA2634CF21F214A815F289E1 /* libPods-LogisticsList_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CBF7213C0A2BB0D4110539 /* libPods-LogisticsList_Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93B1955E1F5694AB00344024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B1953C1F5694AA00344024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B195431F5694AA00344024;
+			remoteInfo = LogisticsList_Demo;
+		};
+		93B195691F5694AB00344024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B1953C1F5694AA00344024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B195431F5694AA00344024;
+			remoteInfo = LogisticsList_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60588D6815BC6700BA74B723 /* Pods-LogisticsList_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogisticsList_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LogisticsList_Demo/Pods-LogisticsList_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		93B195441F5694AA00344024 /* LogisticsList_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogisticsList_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B195481F5694AA00344024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93B1954A1F5694AA00344024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93B1954B1F5694AA00344024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93B195511F5694AA00344024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93B195531F5694AA00344024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93B195561F5694AA00344024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93B195581F5694AA00344024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B1955D1F5694AB00344024 /* LogisticsList_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogisticsList_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B195611F5694AB00344024 /* LogisticsList_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsList_DemoTests.m; sourceTree = "<group>"; };
+		93B195631F5694AB00344024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B195681F5694AB00344024 /* LogisticsList_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogisticsList_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B1956C1F5694AB00344024 /* LogisticsList_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsList_DemoUITests.m; sourceTree = "<group>"; };
+		93B1956E1F5694AB00344024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B1957D1F56964200344024 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		93B1957F1F56970F00344024 /* NSString+phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+phone.h"; sourceTree = "<group>"; };
+		93B195801F56970F00344024 /* NSString+phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+phone.m"; sourceTree = "<group>"; };
+		93B195861F56984200344024 /* LzwLogisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzwLogisticsViewController.h; sourceTree = "<group>"; };
+		93B195871F56984200344024 /* LzwLogisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzwLogisticsViewController.m; sourceTree = "<group>"; };
+		93B1958F1F56989C00344024 /* LzwLogisticsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzwLogisticsModel.h; sourceTree = "<group>"; };
+		93B195901F56989C00344024 /* LzwLogisticsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzwLogisticsModel.m; sourceTree = "<group>"; };
+		93B195921F569AD800344024 /* LzwLogisticsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzwLogisticsView.h; sourceTree = "<group>"; };
+		93B195931F569AD800344024 /* LzwLogisticsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzwLogisticsView.m; sourceTree = "<group>"; };
+		93B195951F569CEF00344024 /* LzwTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzwTableHeaderView.h; sourceTree = "<group>"; };
+		93B195961F569CEF00344024 /* LzwTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzwTableHeaderView.m; sourceTree = "<group>"; };
+		93B195991F569ED100344024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/hh.jpg; sourceTree = "<group>"; };
+		93B1959B1F56A0E700344024 /* LzwLogCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzwLogCustomTableViewCell.h; sourceTree = "<group>"; };
+		93B1959C1F56A0E700344024 /* LzwLogCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzwLogCustomTableViewCell.m; sourceTree = "<group>"; };
+		93B1959E1F56A22300344024 /* LzwCustomCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzwCustomCellContentView.h; sourceTree = "<group>"; };
+		93B1959F1F56A22300344024 /* LzwCustomCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzwCustomCellContentView.m; sourceTree = "<group>"; };
+		AECDB9F5C5FEFCCDDADA2F46 /* Pods-LogisticsList_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogisticsList_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogisticsList_Demo/Pods-LogisticsList_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		B3CBF7213C0A2BB0D4110539 /* libPods-LogisticsList_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogisticsList_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B195411F5694AA00344024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2634CF21F214A815F289E1 /* libPods-LogisticsList_Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B1955A1F5694AB00344024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B195651F5694AB00344024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B1953B1F5694AA00344024 = {
+			isa = PBXGroup;
+			children = (
+				93B195461F5694AA00344024 /* LogisticsList_Demo */,
+				93B195601F5694AB00344024 /* LogisticsList_DemoTests */,
+				93B1956B1F5694AB00344024 /* LogisticsList_DemoUITests */,
+				93B195451F5694AA00344024 /* Products */,
+				C5129973A121ABA4DF3BD9BF /* Pods */,
+				D52A32438CA43725635D47DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93B195451F5694AA00344024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B195441F5694AA00344024 /* LogisticsList_Demo.app */,
+				93B1955D1F5694AB00344024 /* LogisticsList_DemoTests.xctest */,
+				93B195681F5694AB00344024 /* LogisticsList_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B195461F5694AA00344024 /* LogisticsList_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				93B195821F56984200344024 /* LogisticsPart */,
+				93B1957E1F56970F00344024 /* IphoneTool */,
+				93B1954A1F5694AA00344024 /* AppDelegate.h */,
+				93B1954B1F5694AA00344024 /* AppDelegate.m */,
+				93B195501F5694AA00344024 /* Main.storyboard */,
+				93B195531F5694AA00344024 /* Assets.xcassets */,
+				93B195551F5694AA00344024 /* LaunchScreen.storyboard */,
+				93B195981F569ED100344024 /* hh.jpg */,
+				93B195581F5694AA00344024 /* Info.plist */,
+				93B195471F5694AA00344024 /* Supporting Files */,
+			);
+			path = LogisticsList_Demo;
+			sourceTree = "<group>";
+		};
+		93B195471F5694AA00344024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B195481F5694AA00344024 /* main.m */,
+				93B1957D1F56964200344024 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93B195601F5694AB00344024 /* LogisticsList_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				93B195611F5694AB00344024 /* LogisticsList_DemoTests.m */,
+				93B195631F5694AB00344024 /* Info.plist */,
+			);
+			path = LogisticsList_DemoTests;
+			sourceTree = "<group>";
+		};
+		93B1956B1F5694AB00344024 /* LogisticsList_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93B1956C1F5694AB00344024 /* LogisticsList_DemoUITests.m */,
+				93B1956E1F5694AB00344024 /* Info.plist */,
+			);
+			path = LogisticsList_DemoUITests;
+			sourceTree = "<group>";
+		};
+		93B1957E1F56970F00344024 /* IphoneTool */ = {
+			isa = PBXGroup;
+			children = (
+				93B1957F1F56970F00344024 /* NSString+phone.h */,
+				93B195801F56970F00344024 /* NSString+phone.m */,
+			);
+			path = IphoneTool;
+			sourceTree = "<group>";
+		};
+		93B195821F56984200344024 /* LogisticsPart */ = {
+			isa = PBXGroup;
+			children = (
+				93B195831F56984200344024 /* LogisticsM */,
+				93B195841F56984200344024 /* LogisticsV */,
+				93B195851F56984200344024 /* LogisticsVC */,
+			);
+			path = LogisticsPart;
+			sourceTree = "<group>";
+		};
+		93B195831F56984200344024 /* LogisticsM */ = {
+			isa = PBXGroup;
+			children = (
+				93B1958F1F56989C00344024 /* LzwLogisticsModel.h */,
+				93B195901F56989C00344024 /* LzwLogisticsModel.m */,
+			);
+			path = LogisticsM;
+			sourceTree = "<group>";
+		};
+		93B195841F56984200344024 /* LogisticsV */ = {
+			isa = PBXGroup;
+			children = (
+				93B195921F569AD800344024 /* LzwLogisticsView.h */,
+				93B195931F569AD800344024 /* LzwLogisticsView.m */,
+				93B195951F569CEF00344024 /* LzwTableHeaderView.h */,
+				93B195961F569CEF00344024 /* LzwTableHeaderView.m */,
+				93B1959B1F56A0E700344024 /* LzwLogCustomTableViewCell.h */,
+				93B1959C1F56A0E700344024 /* LzwLogCustomTableViewCell.m */,
+				93B1959E1F56A22300344024 /* LzwCustomCellContentView.h */,
+				93B1959F1F56A22300344024 /* LzwCustomCellContentView.m */,
+			);
+			path = LogisticsV;
+			sourceTree = "<group>";
+		};
+		93B195851F56984200344024 /* LogisticsVC */ = {
+			isa = PBXGroup;
+			children = (
+				93B195861F56984200344024 /* LzwLogisticsViewController.h */,
+				93B195871F56984200344024 /* LzwLogisticsViewController.m */,
+			);
+			path = LogisticsVC;
+			sourceTree = "<group>";
+		};
+		C5129973A121ABA4DF3BD9BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60588D6815BC6700BA74B723 /* Pods-LogisticsList_Demo.debug.xcconfig */,
+				AECDB9F5C5FEFCCDDADA2F46 /* Pods-LogisticsList_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D52A32438CA43725635D47DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3CBF7213C0A2BB0D4110539 /* libPods-LogisticsList_Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B195431F5694AA00344024 /* LogisticsList_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B195711F5694AB00344024 /* Build configuration list for PBXNativeTarget "LogisticsList_Demo" */;
+			buildPhases = (
+				7416C6C139C162C14F4AAE2E /* [CP] Check Pods Manifest.lock */,
+				93B195401F5694AA00344024 /* Sources */,
+				93B195411F5694AA00344024 /* Frameworks */,
+				93B195421F5694AA00344024 /* Resources */,
+				0569C47889C8FE376F8EB6C5 /* [CP] Embed Pods Frameworks */,
+				AFAE491E84444AE1CB33EA71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogisticsList_Demo;
+			productName = LogisticsList_Demo;
+			productReference = 93B195441F5694AA00344024 /* LogisticsList_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93B1955C1F5694AB00344024 /* LogisticsList_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B195741F5694AB00344024 /* Build configuration list for PBXNativeTarget "LogisticsList_DemoTests" */;
+			buildPhases = (
+				93B195591F5694AB00344024 /* Sources */,
+				93B1955A1F5694AB00344024 /* Frameworks */,
+				93B1955B1F5694AB00344024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B1955F1F5694AB00344024 /* PBXTargetDependency */,
+			);
+			name = LogisticsList_DemoTests;
+			productName = LogisticsList_DemoTests;
+			productReference = 93B1955D1F5694AB00344024 /* LogisticsList_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93B195671F5694AB00344024 /* LogisticsList_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B195771F5694AB00344024 /* Build configuration list for PBXNativeTarget "LogisticsList_DemoUITests" */;
+			buildPhases = (
+				93B195641F5694AB00344024 /* Sources */,
+				93B195651F5694AB00344024 /* Frameworks */,
+				93B195661F5694AB00344024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B1956A1F5694AB00344024 /* PBXTargetDependency */,
+			);
+			name = LogisticsList_DemoUITests;
+			productName = LogisticsList_DemoUITests;
+			productReference = 93B195681F5694AB00344024 /* LogisticsList_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B1953C1F5694AA00344024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Lzw;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhiwuLiu;
+				TargetAttributes = {
+					93B195431F5694AA00344024 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WVCYXM7GPG;
+						ProvisioningStyle = Automatic;
+					};
+					93B1955C1F5694AB00344024 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WVCYXM7GPG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93B195431F5694AA00344024;
+					};
+					93B195671F5694AB00344024 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WVCYXM7GPG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93B195431F5694AA00344024;
+					};
+				};
+			};
+			buildConfigurationList = 93B1953F1F5694AA00344024 /* Build configuration list for PBXProject "LogisticsList_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93B1953B1F5694AA00344024;
+			productRefGroup = 93B195451F5694AA00344024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B195431F5694AA00344024 /* LogisticsList_Demo */,
+				93B1955C1F5694AB00344024 /* LogisticsList_DemoTests */,
+				93B195671F5694AB00344024 /* LogisticsList_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B195421F5694AA00344024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B195571F5694AA00344024 /* LaunchScreen.storyboard in Resources */,
+				93B1959A1F569ED100344024 /* hh.jpg in Resources */,
+				93B195541F5694AA00344024 /* Assets.xcassets in Resources */,
+				93B195521F5694AA00344024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B1955B1F5694AB00344024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B195661F5694AB00344024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0569C47889C8FE376F8EB6C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LogisticsList_Demo/Pods-LogisticsList_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7416C6C139C162C14F4AAE2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAE491E84444AE1CB33EA71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LogisticsList_Demo/Pods-LogisticsList_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B195401F5694AA00344024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B195941F569AD800344024 /* LzwLogisticsView.m in Sources */,
+				93B195971F569CEF00344024 /* LzwTableHeaderView.m in Sources */,
+				93B195811F56970F00344024 /* NSString+phone.m in Sources */,
+				93B195A01F56A22300344024 /* LzwCustomCellContentView.m in Sources */,
+				93B1959D1F56A0E700344024 /* LzwLogCustomTableViewCell.m in Sources */,
+				93B1954C1F5694AA00344024 /* AppDelegate.m in Sources */,
+				93B195911F56989C00344024 /* LzwLogisticsModel.m in Sources */,
+				93B195881F56984200344024 /* LzwLogisticsViewController.m in Sources */,
+				93B195491F5694AA00344024 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B195591F5694AB00344024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B195621F5694AB00344024 /* LogisticsList_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B195641F5694AB00344024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B1956D1F5694AB00344024 /* LogisticsList_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93B1955F1F5694AB00344024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B195431F5694AA00344024 /* LogisticsList_Demo */;
+			targetProxy = 93B1955E1F5694AB00344024 /* PBXContainerItemProxy */;
+		};
+		93B1956A1F5694AB00344024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B195431F5694AA00344024 /* LogisticsList_Demo */;
+			targetProxy = 93B195691F5694AB00344024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93B195501F5694AA00344024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B195511F5694AA00344024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93B195551F5694AA00344024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B195561F5694AA00344024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		93B195981F569ED100344024 /* hh.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B195991F569ED100344024 /* Base */,
+			);
+			name = hh.jpg;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93B1956F1F5694AB00344024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93B195701F5694AB00344024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B195721F5694AB00344024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60588D6815BC6700BA74B723 /* Pods-LogisticsList_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WVCYXM7GPG;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LogisticsList_Demo/PrefixHeader.pch";
+				INFOPLIST_FILE = LogisticsList_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrLiu.LogisticsList-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93B195731F5694AB00344024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECDB9F5C5FEFCCDDADA2F46 /* Pods-LogisticsList_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WVCYXM7GPG;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LogisticsList_Demo/PrefixHeader.pch";
+				INFOPLIST_FILE = LogisticsList_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrLiu.LogisticsList-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93B195751F5694AB00344024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WVCYXM7GPG;
+				INFOPLIST_FILE = LogisticsList_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrLiu.LogisticsList-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogisticsList_Demo.app/LogisticsList_Demo";
+			};
+			name = Debug;
+		};
+		93B195761F5694AB00344024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WVCYXM7GPG;
+				INFOPLIST_FILE = LogisticsList_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrLiu.LogisticsList-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogisticsList_Demo.app/LogisticsList_Demo";
+			};
+			name = Release;
+		};
+		93B195781F5694AB00344024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WVCYXM7GPG;
+				INFOPLIST_FILE = LogisticsList_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrLiu.LogisticsList-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LogisticsList_Demo;
+			};
+			name = Debug;
+		};
+		93B195791F5694AB00344024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WVCYXM7GPG;
+				INFOPLIST_FILE = LogisticsList_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrLiu.LogisticsList-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LogisticsList_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B1953F1F5694AA00344024 /* Build configuration list for PBXProject "LogisticsList_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B1956F1F5694AB00344024 /* Debug */,
+				93B195701F5694AB00344024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B195711F5694AB00344024 /* Build configuration list for PBXNativeTarget "LogisticsList_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B195721F5694AB00344024 /* Debug */,
+				93B195731F5694AB00344024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B195741F5694AB00344024 /* Build configuration list for PBXNativeTarget "LogisticsList_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B195751F5694AB00344024 /* Debug */,
+				93B195761F5694AB00344024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B195771F5694AB00344024 /* Build configuration list for PBXNativeTarget "LogisticsList_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B195781F5694AB00344024 /* Debug */,
+				93B195791F5694AB00344024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B1953C1F5694AA00344024 /* Project object */;
+}
